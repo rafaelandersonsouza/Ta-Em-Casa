@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 .page-header .top-bar-container{
-    width: 80%;
+    width: 90%;
     margin: 2.0rem auto;
     display: flex;
     align-items: center;
@@ -43,6 +43,7 @@
     }
     .page-header .top-bar-container{
         max-width: 1100px;
+        width: 80%;
     }
     .page-header .header-content{
         max-width: 740px;
