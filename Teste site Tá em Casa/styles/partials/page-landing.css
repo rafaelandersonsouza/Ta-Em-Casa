@@ -46,7 +46,7 @@
     background: white;
 }
 .buttons-container a.study:hover {
-    background: var(--color-primary-light);
+    background: #F7CA49;
 }
 .buttons-container a.give-classes {
     background: var(--color-secondary);
@@ -78,7 +78,7 @@
         grid-template-rows: 350px 1fr;
         grid-template-areas: 
         "proffy image image"
-        "button button texting";
+        "button texting";
         column-gap: 87px;
         row-gap: 86px;
     }
