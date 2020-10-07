@@ -33,41 +33,41 @@
     margin: 3.2rem auto;
     width: 90%;
 }
-.teacher-item{
+.small_img{
     background-color: var(--color-box-base);
     border: 1px solid var(--color-line-in-white);
     border-radius: .8rem;
     margin-top: 2.4rem;
 }
-.teacher-item header{
+.small_img header{
     padding: 1rem 2rem;
     display:flex;
     align-items: center;
 }
-.teacher-item header img{
+.small_img header img{
     width: 11rem;
     height: 11rem;
     border-radius: 30%;
 }
-.teacher-item header div{
+.small_img header div{
     margin-left: 2.4rem;
 }
-.teacher-item header div strong{
+.small_img header div strong{
     font: 700 2.4rem Archivo;
     display: block;
     color: var(--color-text-title);
 }
-.teacher-item header div span{
+.small_img header div span{
     font-size: 1.6rem;
     display: block;
     margin-top: .4rem;
 }
-.teacher-item > p{
+.small_img > p{
     padding: 0 2rem;
     font-size: 1.6rem;
     line-height: 2.8rem;
 }
-.teacher-item footer{
+.small_img footer{
     padding: 3.2rem 2rem;
     background-color: var(--color-box-footer);
     border-top: 1px solid var(--color-line-in-white);
@@ -76,17 +76,17 @@
     align-items: center;
     justify-content: space-between;
 }
-.teacher-item footer p{
+.small_img footer p{
     font-size: 1.4rem;
     line-height: 2.4rem;
     color: var(--color-text-complement);
 }
-.teacher-item footer p strong{
+.small_img footer p strong{
     font-size: 1.6rem;
     color: black;
     display: block;
 }
-.teacher-item footer button{
+.small_img footer button{
     width: 20rem;
     height: 5.6rem;
     background: #F7CA49;
@@ -102,13 +102,41 @@
     transition: background 0.2s;
     margin-left: 1.6rem;
 }
-.teacher-item footer button:hover{
+.small_img footer button:hover{
     background: var(--color-secondary-dark);
 }
-.teacher-item footer button img{
+.small_img footer button img{
     margin-right: 16px;
     width: 35px;
     margin-left: 16px;
+}
+#modal_img{
+    width: 65vw;
+}
+.modal{
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+}
+.modal_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#bt-close{
+    color: #ffff;
+    background-color: #0000;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    font-size: 25px;
+    border: solid 1px #fff;
+}
+.modal_active{
+    visibility: visible;
 }
 @media (min-width:700px){
     #page-study #container{
@@ -132,8 +160,8 @@
     .page-header .header-content strong{
         max-width: 150px;
     }
-    .teacher-item header,
-    .teacher-item footer{
+    .small_img header,
+    .small_img footer{
         padding: 32px;
     }
     #search-teachers{
@@ -150,19 +178,19 @@
     #search-teachers .select-block{
         margin-bottom: 0;
     }
-    .teacher-item > p{
+    .small_img > p{
         padding: 0 32px;
     }
-    .teacher-item footer p strong{
+    .small_img footer p strong{
         display: initial;
         margin-left: 16px;
     }
-    .teacher-item footer button{
+    .small_img footer button{
         width: 245px;
         font-size: 16px;
         justify-content: center;
     }
-    .teacher-item footer button img{
+    .small_img footer button img{
         margin-right: 16px;
         width: 35px;
         margin-left: 16px;
